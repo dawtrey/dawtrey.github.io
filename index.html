@@ -1,263 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
 
-  <title>Magazee HTML5 Template Mo</title>
-<!-- 
-Magazee Template 
-http://www.templatemo.com/tm-514-magazee
--->
-  <!-- load CSS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
-  <link rel="stylesheet" href="css/templatemo-style.css">                                     <!-- Templatemo style -->
-
-  <script>
-    var renderPage = true;
-
-    if(navigator.userAgent.indexOf('MSIE')!==-1
-      || navigator.appVersion.indexOf('Trident/') > 0){
-        /* Microsoft Internet Explorer detected in. */
-        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
-        renderPage = false;
-    }
-  </script>
-
-</head>
-
-<body>
-  <!-- Loader -->
-  <div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-  </div>
-
- <div class="container">
-
-  <!-- 1st section -->
-  <section class="row tm-section">
-   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
-    <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
-      <h1 class="tm-text-color-white tm-site-name">Magazee</h1>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>My Logo</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
     </div>
   </div>
-  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-    <div class="tm-flex-center p-5">
-      <q class="tm-quote tm-text-color-gray">Ut sit amet augue elit. Vivamus eget tortor in ante scelerisque gravida. Vestibulum auctor condimentum sem.</q>
-    </div>
-  </div>
-</section>
-
-<!-- 2nd section -->
-<section class="row tm-section tm-col-md-reverse">
- <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-  <div class="tm-flex-center p-5">
-    <div class="tm-md-flex-center">
-      <h2 class="tm-text-color-primary mb-4">Fusce ac enim at justo</h2>
-      <p class="mb-4">Pellentesque sagittis feugiat massa, vitae blandit elit dictum in. Nam eleifend nunc dui, sed cusus justo molestie id. Vestibulum vel sagittis justo.</p>
-      <a href="#" class="btn btn-primary float-lg-right tm-md-align-center">Read more</a>
-    </div>
-  </div>
-</div>
-<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
-  <div class="tm-flex-center p-5 tm-bg-color-primary">
-    <div class="tm-max-w-400 tm-flex-center tm-flex-col">
-      <img src="img/image-04.jpeg" alt="Image" class="rounded-circle mb-4">
-      <p class="tm-text-color-white small tm-font-thin mb-0">Nullam eleifend, ipsum eu aliquet fermentum , odio urna dignissim ante, semper maximus libero nisl non nibh.</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- 3rd Section -->
-<section class="row tm-section tm-mb-30">
-  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
-    <img src="img/image-01.jpg" alt="Image" class="img-fluid">
-  </div>
-  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-    <div class="tm-flex-center p-5">
-      <div class="tm-flex-center tm-flex-col">
-        <h2 class="tm-align-left">Loerm ipsum dolor sit amet</h2>
-        <p>This is one-page HTML5 template that you can use for any purpose. Please tell your friends about <a href="https://www.facebook.com/templatemo" target="_parent">TemplateMo</a> website. Thank you.</p>
-        <a href="#" class="btn btn-primary">Read More</a>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<!-- 4th Section -->
-<section class="row tm-section tm-mb-30">
- <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-  <div class="tm-flex-center pl-5 pr-5 pt-5 pb-5">
-    <div class="tm-md-flex-center">
-     <h2 class="mb-4 tm-text-color-primary">Nullam auctor ornare finibus</h2>
-     <p>Cras eu dolor lorem. Cras justo mauris, rhoncus in mauris ac, pellentesque pulvinar metus. Suspendisse consectetur consequat diam, ac dignissim mauris gravida vitae. Vestibulum blandit vestibulum mi a viverra.</p>
-     <p class="mb-4">Fusce porta lectus vel elit condimentum porttitor. Maecenas at quam congue, sollicitudin risus quis, ultricies enim. Vivamus sodales, tellus ac quismod dignissim, metus ligula porttitor enim.</p>
-     <p class="mb-4">Sed fermentum odio mollis libero iaculis ultrices. Mauris et nibh mi. Nullam vel sapien dolor. Vestibulum ipsum quam, aliquet ac pharetra in, suscipit eu risus. Etiam rutrum eros ultrices, consectetur felis ultrices, vehicula purus.</p>
-     <a href="#" class="btn btn-primary float-lg-right tm-md-align-center">Read More</a>
-   </div>
- </div>
-</div>
-<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-xl-right text-md-center text-center mt-5 mt-lg-0 pr-lg-0">
- <img src="img/image-02.jpg" alt="Image" class="img-fluid">
-</div>
-</section>
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>My Work</h2>
+      <p>Some of my latest projects.</p>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="/w3images/coffee.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="/w3images/workbench.jpg" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="/w3images/workbench.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="/w3images/coffee.jpg" style="width:100%">
+      </div>
+    </div>
 
-<!-- 5th Section -->
-<section class="row tm-section tm-mb-30">
-  <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-md-0 text-md-center text-center mb-4 mb-lg-0">
-   <img src="img/image-03.jpg" alt="Image" class="img-fluid">
- </div>
- <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pl-lg-4 pr-xl-0 mb-4 mb-lg-0">
-  <div class="tm-flex-center">
-   <div class="tm-pricing-table">
-    <div class="tm-bg-color-secondary tm-text-color-white text-center tm-font-thin tm-pricing-header">
-      <p class="mb-0 tm-pricing-header-title">Standard Plan</p>
-      <p class="mb-0 tm-pricing-header-subtitle">($25 per month)</p>
-    </div>
-    <div class="tm-pricing-body">
-      <ul class="tm-feature-list">
-        <li>Ut sit amet augue elit</li>
-        <li>Vivamus eget tortor in ante</li>
-        <li>Scelerisque gravida</li>
-        <li>Vestibulum auctor</li>
-        <li>Condimentum sem</li>
-        <li>Suscipit arcu accumsan</li>
-      </ul>
-      <a href="#" class="btn btn-secondary">Buy now</a>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="/w3images/sound.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="/w3images/workbench.jpg" style="width:100%">
+      </div>
+    </div><br>
+    <p>Just call me awesome.</p>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Resume</h2>
+      <p>A draft from my CV</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2012-2016</td>
+            <td>The rest is history..</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>2009-2012</td>
+            <td>Started my own company</td>
+            <td>My Garage</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2008-2009</td>
+            <td>Started working for Lorem</td>
+            <td>London, UK</td>
+          </tr>
+          <tr>
+            <td>2005-2008</td>
+            <td>Degree in Bachelor of Design</td>
+            <td>Harvard, USA</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 </div>
-</div>
-<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pl-xl-0 mb-4 mb-lg-0">
-  <div class="tm-flex-center">
-   <div class="tm-pricing-table">
-    <div class="tm-bg-color-secondary tm-text-color-white text-center tm-font-thin tm-pricing-header">
-      <p class="mb-0 tm-pricing-header-title">Advanced Plan</p>
-      <p class="mb-0 tm-pricing-header-subtitle">($40 per month)</p>
-    </div>
-    <div class="tm-pricing-body">
-      <ul class="tm-feature-list">
-        <li>Vel eleifend enim</li>
-        <li>Morbi blandit metus</li>
-        <li>Fusce porta lectus vel elit</li>
-        <li>Cras eu dolor lorem</li>
-        <li>Pharetra et sapien</li>
-        <li>Quisque auctor non magna</li>
-      </ul>
-      <a href="#" class="btn btn-secondary">Buy now</a>
-    </div>
-  </div>
-</div>
-</div>
-</section>
 
-<!-- 6th Section -->
-<section class="row">
-  <div class="col-lg-12 tm-form-header pl-5 pr-5">
-    <h2 class="tm-container-inner tm-text-color-white">Application Form</h2>
-  </div>
-  <div class="col-lg-12 pl-2 pl-sm-3 pl-md-5 pr-2 pr-sm-3 pr-md-5">
-    <form action="index.html" method="post" class="row tm-container-inner tm-contact-form">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div class="form-group">
-          <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Full Name"  required/>
-        </div>
-        <div class="form-group">
-          <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
-        </div>
-        <div class="form-group">
-          <select>
-            <option value="">Position</option>
-            <option value="ceo">Chief Executive Officer</option>
-            <option value="ms">Marketing Specialist</option>
-            <option value="om">Operating Manager</option>
-            <option value="sa">Sales Assistant</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <select>
-            <option value="">Salary</option>
-            <option value="100k">$100,000-$140,000</option>
-            <option value="200k">$200,000-$260,000</option>
-            <option value="300k">$300,000-$375,000</option>
-          </select>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div class="form-group">
-          <div class="row">
-            <div class="col-lg-6">
-              <label>
-                <input type="radio" name="gender" value="m" required> Male
-              </label>
-            </div>
-            <div class="col-lg-6">
-              <label>
-                <input type="radio" name="gender" value="f" required> Female
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Additional Message" required></textarea>
-        </div>
-      </div>
-      <div class="col-xs-12 mt-4 tm-center">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </form>
-  </div>
-  <div class="col-lg-12 tm-bg-color-gray tm-text-color-white tm-font-thin tm-form-footer">
-    <div class="row tm-container-inner">
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div class="tm-footer-info-box">
-          <h4>Lorem ipsum dolor</h4>
-          <address>
-            1010 Vivamaus viverra<br>
-            Leo vel porttitor sodales<br>
-            Non eleifend 10980
-          </address>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div class="tm-footer-info-box">
-          <p>Maecenas fermentum<br>
-          Nam eu justo et urna<br>
-          Semper maximus libero<br>
-          Etiam magna quam</p>
-        </div>
-      </div>
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Swing By</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p>..for a cup of coffee, or whatever.</p>
+      <p>Chicago, US</p>
+      <p>+00 1515151515</p>
+      <p>test@test.com</p>
     </div>
   </div>
-</section>
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
-<div class="row">
-  <div class="col-lg-12">
-    <p class="text-center small tm-copyright-text mb-0">Copyright &copy; <span class="tm-current-year">2018</span> Your Company Name | Designed by <a href="http://templatemo.com" class="tm-text-color-gray" target="_parent">Template Mo</a></p>
-  </div>
-</div>
-</div>
-<!-- load JS -->
-<script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
-<script>
-
-  /* DOM is ready
-  ------------------------------------------------*/
-  $(function(){
-
-    if(renderPage) {
-      $('body').addClass('loaded');
-    }
-
-    $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
-  });
-
-</script>
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
 </html>
+

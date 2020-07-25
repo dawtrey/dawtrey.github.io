@@ -13,11 +13,12 @@ body {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   padding: 10px;
-  background-color: pink;
+  background-color: red;
 }
 
 .side-label {
   text-transform: uppercase;
+  color: white;
 }
 
 .main {
